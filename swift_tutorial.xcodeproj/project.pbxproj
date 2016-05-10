@@ -49,6 +49,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B99D12441CE212A800DDE512 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
 		D114D29D2EE0F4AFC5F637E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +113,7 @@
 			children = (
 				E9E59B691CE0473900F00910 /* AppDelegate.swift */,
 				E9E59B6B1CE0473900F00910 /* ViewController.swift */,
+				B99D12441CE212A800DDE512 /* Network */,
 				E91304E31CE04E4700F78134 /* UI */,
 				E91304E41CE04E8F00F78134 /* Resources */,
 				E91304E51CE04F1200F78134 /* Supporting Files */,
