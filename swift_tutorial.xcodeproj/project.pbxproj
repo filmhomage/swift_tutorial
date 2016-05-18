@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		80A7EA6F3B894735F62A9A62 /* Pods_swift_tutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A90E21570AAAA2920D128E /* Pods_swift_tutorial.framework */; };
+		B9DA1F4C1CE22F36009B489A /* SWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA1F4B1CE22F36009B489A /* SWButton.swift */; };
+		B9DA1F4E1CE23479009B489A /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DA1F4D1CE23479009B489A /* UI.swift */; };
 		E9E59B6A1CE0473900F00910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E59B691CE0473900F00910 /* AppDelegate.swift */; };
 		E9E59B6C1CE0473900F00910 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E59B6B1CE0473900F00910 /* ViewController.swift */; };
 		E9E59B6F1CE0473900F00910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E59B6D1CE0473900F00910 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 		2333C8C9B2C462A51C98E970 /* Pods-swift_tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_tutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift_tutorial/Pods-swift_tutorial.release.xcconfig"; sourceTree = "<group>"; };
 		383E149E03967457F9D3F382 /* Pods-swift_tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_tutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift_tutorial/Pods-swift_tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		B9A90E21570AAAA2920D128E /* Pods_swift_tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_tutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DA1F4B1CE22F36009B489A /* SWButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWButton.swift; path = UI/SWButton.swift; sourceTree = "<group>"; };
+		B9DA1F4D1CE23479009B489A /* UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UI.swift; path = UI/UI.swift; sourceTree = "<group>"; };
 		E9E59B661CE0473900F00910 /* swift_tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E59B691CE0473900F00910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9E59B6B1CE0473900F00910 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 		E91304E31CE04E4700F78134 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				B9DA1F4D1CE23479009B489A /* UI.swift */,
+				B9DA1F4B1CE22F36009B489A /* SWButton.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -244,7 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E59B6C1CE0473900F00910 /* ViewController.swift in Sources */,
+				B9DA1F4E1CE23479009B489A /* UI.swift in Sources */,
 				E9E59B6A1CE0473900F00910 /* AppDelegate.swift in Sources */,
+				B9DA1F4C1CE22F36009B489A /* SWButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
