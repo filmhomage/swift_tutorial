@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SWButton : UIViewController {
+class SWButtonViewController : UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
