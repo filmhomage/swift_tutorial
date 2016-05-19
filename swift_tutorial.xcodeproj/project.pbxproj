@@ -146,6 +146,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		E9461EFB1CEDB76D0087F037 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
 		E9E59B5D1CE0473900F00910 = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				E9E59B691CE0473900F00910 /* AppDelegate.swift */,
+				E9461EFB1CEDB76D0087F037 /* DAO */,
 				E90671A61CEC02EA004D0AE2 /* Extension */,
 				E90671961CEBF2AE004D0AE2 /* Model */,
 				B99D12441CE212A800DDE512 /* Network */,
