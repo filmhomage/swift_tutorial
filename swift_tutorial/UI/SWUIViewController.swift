@@ -1,5 +1,5 @@
 //
-//  UI.swift
+//  SWUIViewController.swift
 //  swift_tutorial
 //
 //  Created by earth on 5/11/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UI: UIViewController {
+class SWUIViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

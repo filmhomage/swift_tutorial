@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import RealmSwift
 import ObjectMapper
 
 struct Results: Mappable {
@@ -23,6 +24,7 @@ struct Results: Mappable {
 }
 
 struct Track: Mappable {
+    
     var trackName = ""
     var trackId = ""
     var artistName = ""
