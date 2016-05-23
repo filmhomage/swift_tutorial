@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class SWNetworkViewController : UIViewController {
     
@@ -15,6 +16,8 @@ class SWNetworkViewController : UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
+        
+        self.loadTracks();
     }
     
     @IBAction func searchButtonTapped(sender: AnyObject) {
@@ -35,11 +38,49 @@ class SWNetworkViewController : UIViewController {
                     resultString = resultString + "[trackId : " + result.trackId + "] [artistName: " + result.artistName + "] [trackNam: " + result.trackName + "]\n\n"
                 }
                 self.textViewResult.text = resultString
+                self.saveToTracks(itunesSearch.results)
+                
                 break
             case .Error(let error):
                 print(error)
                 break
             }
         }
+    }
+    
+    
+
+// FIXME: move to DAO
+    
+    func loadTracks() {
+        
+        let realm = try! Realm()
+        let tracks = realm.objects(SWTrackModel).sorted("trackId", ascending: false)
+        if(tracks.count > 0) {
+            var resultString = ""
+            for track in tracks {
+                resultString = resultString + "[trackId : " + track.trackId + "] [artistName: " + track.artistName + "] [trackNam: " + track.trackName + "]\n\n"
+            }
+            self.textViewResult.text = resultString
+        }
+    }
+
+    func saveToTracks(tracks :[Track]?) {
+        
+        let realm = try! Realm()
+        try! realm.write {
+            realm.delete(realm.objects(SWTrackModel))
+        }
+        
+        realm.beginWrite()
+        
+        for track in tracks! {
+            let trackModel = SWTrackModel();
+            trackModel.trackId = track.trackId
+            trackModel.trackName = track.trackName
+            trackModel.artistName = track.artistName
+            realm.add(trackModel)
+        }
+        try! realm.commitWrite();
     }
 }
