@@ -16,6 +16,12 @@ class SWUtil : NSObject {
         print("SWUtil init!")
     }
  
+    func printAppdocumentsPath() {
+        
+        let documentsPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0]
+        print(documentsPath)
+    }
+    
     // this function fail --> move to UIApplication Extension
 //    func topPresentedViewController() -> UIViewController {
 //        var resultVC : UIViewController?
