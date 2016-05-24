@@ -7,3 +7,32 @@
 //
 
 import Foundation
+import UIKit
+
+class SWAlert : NSObject {
+    
+    static let sharedInstance = SWAlert()
+    
+    override init() {
+        print("SWAlert init!")
+    }
+    
+    func showOkAlert(title: String = "title", message: String = "message") {
+    
+        let alertController :UIAlertController = UIAlertController(title:title,
+                                                        message:message,
+                                                        preferredStyle: UIAlertControllerStyle.Alert)
+        
+        let okAction: UIAlertAction = UIAlertAction(title: "OK",
+                                                        style: UIAlertActionStyle.Cancel,
+                                                        handler:{
+                                                            (action:UIAlertAction!) -> Void in
+        })
+        alertController.addAction(okAction)
+        UIApplication.topViewController()!.presentViewController(alertController, animated: true) {
+            print("UIAlertController presentation!")
+        };
+    }
+    
+    // FIXME: closureで機能追加すること
+}
