@@ -18,6 +18,8 @@
 		E90671A31CEBFC80004D0AE2 /* SWConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90671A21CEBFC80004D0AE2 /* SWConst.swift */; };
 		E90671A51CEC013A004D0AE2 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90671A41CEC013A004D0AE2 /* UIApplication+Extension.swift */; };
 		E92DDA701CF28DE4001429FC /* SWTrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92DDA6F1CF28DE4001429FC /* SWTrackModel.swift */; };
+		E98610141CF4284100D613F4 /* SWAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98610131CF4284100D613F4 /* SWAlert.swift */; };
+		E98610161CF429FD00D613F4 /* SWAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98610151CF429FD00D613F4 /* SWAlertViewController.swift */; };
 		E9E59B6A1CE0473900F00910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E59B691CE0473900F00910 /* AppDelegate.swift */; };
 		E9E59B6C1CE0473900F00910 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E59B6B1CE0473900F00910 /* ViewController.swift */; };
 		E9E59B6F1CE0473900F00910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E59B6D1CE0473900F00910 /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 		E90671A21CEBFC80004D0AE2 /* SWConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWConst.swift; path = Const/SWConst.swift; sourceTree = "<group>"; };
 		E90671A41CEC013A004D0AE2 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIApplication+Extension.swift"; path = "Extension/UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		E92DDA6F1CF28DE4001429FC /* SWTrackModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWTrackModel.swift; path = Model/SWTrackModel.swift; sourceTree = "<group>"; };
+		E98610131CF4284100D613F4 /* SWAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWAlert.swift; path = swift_tutorial/Util/SWAlert.swift; sourceTree = "<group>"; };
+		E98610151CF429FD00D613F4 /* SWAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWAlertViewController.swift; path = UI/SWAlertViewController.swift; sourceTree = "<group>"; };
 		E9E59B661CE0473900F00910 /* swift_tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E59B691CE0473900F00910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9E59B6B1CE0473900F00910 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				E906719D1CEBF7D4004D0AE2 /* SWProgress.swift */,
+				E98610131CF4284100D613F4 /* SWAlert.swift */,
 				E906719F1CEBF970004D0AE2 /* SWUtil.swift */,
 			);
 			name = Util;
@@ -125,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				B9DA1F4D1CE23479009B489A /* SWUIViewController.swift */,
+				E98610151CF429FD00D613F4 /* SWAlertViewController.swift */,
 				B9DA1F4B1CE22F36009B489A /* SWButtonViewController.swift */,
 			);
 			name = UI;
@@ -317,7 +323,9 @@
 				E9E59B6C1CE0473900F00910 /* ViewController.swift in Sources */,
 				E92DDA701CF28DE4001429FC /* SWTrackModel.swift in Sources */,
 				E90671A31CEBFC80004D0AE2 /* SWConst.swift in Sources */,
+				E98610141CF4284100D613F4 /* SWAlert.swift in Sources */,
 				B9DA1F4E1CE23479009B489A /* SWUIViewController.swift in Sources */,
+				E98610161CF429FD00D613F4 /* SWAlertViewController.swift in Sources */,
 				E906719A1CEBF54C004D0AE2 /* SWNetworkViewController.swift in Sources */,
 				E90671A51CEC013A004D0AE2 /* UIApplication+Extension.swift in Sources */,
 				E90671A01CEBF970004D0AE2 /* SWUtil.swift in Sources */,
