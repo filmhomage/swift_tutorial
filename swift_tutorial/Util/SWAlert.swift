@@ -34,5 +34,30 @@ class SWAlert : NSObject {
         };
     }
     
-    // FIXME: closureで機能追加すること
+    func showOkAlert(title: String = "title", message: String = "message", completion: (cancel: Bool) -> Void) {
+        
+        let alertController :UIAlertController = UIAlertController(title:title,
+                                                                   message:message,
+                                                                   preferredStyle: UIAlertControllerStyle.Alert)
+        
+        let okAction: UIAlertAction = UIAlertAction(title: "OK",
+                                                    style: UIAlertActionStyle.Default,
+                                                    handler:{
+                                                        (action:UIAlertAction!) -> Void in
+                                                        completion(cancel: false)
+        })
+        
+        let cancelAction: UIAlertAction = UIAlertAction(title: "cancel",
+                                                    style: UIAlertActionStyle.Cancel,
+                                                    handler:{
+                                                        (action:UIAlertAction!) -> Void in
+                                                        completion(cancel:true)
+        })
+        
+        alertController.addAction(okAction)
+        alertController.addAction(cancelAction)
+        UIApplication.topViewController()!.presentViewController(alertController, animated: true) {
+            print("UIAlertController presentation!")
+        };
+    }
 }
