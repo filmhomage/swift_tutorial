@@ -21,9 +21,15 @@ class SWAlertViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
     }
+    
+    
     @IBAction func showOKAlertButtonTapped(sender: UIButton) {
-        print("showOKAlertButtonTapped")
-        
-        SWAlert.sharedInstance.showOkAlert()
+        SWAlert.sharedInstance.showOkAlert("title", message: "message")
+    }
+    
+    @IBAction func showOKCancelAlert(sender: UIButton) {
+        SWAlert.sharedInstance.showOkAlert("title", message: "message") { (cancel) in
+            print("showOkAlert close value : \(cancel)" )
+        }
     }
 }
