@@ -28,8 +28,20 @@ class SWAlertViewController: UIViewController {
     }
     
     @IBAction func showOKCancelAlert(sender: UIButton) {
-        SWAlert.sharedInstance.showOkAlert("title", message: "message") { (cancel) in
+        SWAlert.sharedInstance.showOKCancelAlert("title", message: "message") { (cancel) in
             print("showOkAlert close value : \(cancel)" )
+        }
+    }
+    
+    @IBAction func showMultipleAlertButtonTapped(sender: UIButton) {
+        SWAlert.sharedInstance.showChooseAlert("Select Alert", message: "choose one", buttonTitleArray: ["button1", "button2", "button3"]) { (selectedButtonString) in
+            print("showChooseAlert selected String : \(selectedButtonString)" )
+        }
+    }
+    
+    @IBAction func loginAlertButtonTapped(sender: UIButton) {
+        SWAlert.sharedInstance.showLoginAlert("Login Alert", message: "") { (selectedButtonString) in
+            
         }
     }
 }

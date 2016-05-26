@@ -270,35 +270,59 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gV-e4-ozD">
-                                <rect key="frame" x="223" y="229" width="154" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fYP-Ht-6kc">
+                                <rect key="frame" x="150" y="383" width="300" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="45K-Rv-ddg"/>
-                                    <constraint firstAttribute="width" constant="154" id="CHG-eg-MBu"/>
+                                    <constraint firstAttribute="width" constant="300" id="o3W-ei-OVD"/>
                                 </constraints>
-                                <state key="normal" title="OK Alert"/>
+                                <state key="normal" title="Multiple select Alert"/>
                                 <connections>
-                                    <action selector="showOKAlertButtonTapped:" destination="Avo-FS-UX3" eventType="touchUpInside" id="ATV-9C-ZSN"/>
+                                    <action selector="showMultipleAlertButtonTapped:" destination="Avo-FS-UX3" eventType="touchUpInside" id="iS7-UW-Mjl"/>
+                                    <action selector="showMultipleSelectAlertButtonTapped:" destination="Avo-FS-UX3" eventType="touchUpInside" id="bdP-Im-SJ3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMb-uc-TSE">
-                                <rect key="frame" x="210" y="317" width="180" height="30"/>
+                                <rect key="frame" x="150" y="285" width="300" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="0PG-7h-yYT"/>
-                                    <constraint firstAttribute="width" constant="180" id="kUZ-pm-d0o"/>
+                                    <constraint firstAttribute="width" constant="300" id="Kmy-gZ-6uN"/>
                                 </constraints>
                                 <state key="normal" title="OK Cancel Alert"/>
                                 <connections>
                                     <action selector="showOKCancelAlert:" destination="Avo-FS-UX3" eventType="touchUpInside" id="Fxm-DQ-leT"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNf-YH-jGl">
+                                <rect key="frame" x="150" y="458" width="300" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="6fA-qp-JD8"/>
+                                    <constraint firstAttribute="height" constant="30" id="NqF-Ix-B4D"/>
+                                </constraints>
+                                <state key="normal" title="Login Alert"/>
+                                <connections>
+                                    <action selector="loginAlertButtonTapped:" destination="Avo-FS-UX3" eventType="touchUpInside" id="mgd-9f-Atw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gV-e4-ozD">
+                                <rect key="frame" x="150" y="197" width="300" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="YZo-ny-eFx"/>
+                                </constraints>
+                                <state key="normal" title="OK Alert"/>
+                                <connections>
+                                    <action selector="showOKAlertButtonTapped:" destination="Avo-FS-UX3" eventType="touchUpInside" id="ATV-9C-ZSN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ZQz-3d-Osx" firstAttribute="top" secondItem="eMb-uc-TSE" secondAttribute="bottom" constant="253" id="1TB-rI-vqd"/>
-                            <constraint firstItem="eMb-uc-TSE" firstAttribute="centerX" secondItem="S5C-pG-1Rf" secondAttribute="centerX" id="Iar-6h-ZSD"/>
-                            <constraint firstItem="9gV-e4-ozD" firstAttribute="centerX" secondItem="S5C-pG-1Rf" secondAttribute="centerX" id="Whn-zG-Tex"/>
-                            <constraint firstItem="eMb-uc-TSE" firstAttribute="top" secondItem="9gV-e4-ozD" secondAttribute="bottom" constant="58" id="f3z-6q-ehb"/>
+                            <constraint firstItem="fYP-Ht-6kc" firstAttribute="centerX" secondItem="S5C-pG-1Rf" secondAttribute="centerX" id="7oa-QO-RgN"/>
+                            <constraint firstItem="eMb-uc-TSE" firstAttribute="top" secondItem="9gV-e4-ozD" secondAttribute="bottom" constant="58" id="Lko-K5-Utq"/>
+                            <constraint firstItem="fYP-Ht-6kc" firstAttribute="top" secondItem="eMb-uc-TSE" secondAttribute="bottom" constant="68" id="USv-WY-ogB"/>
+                            <constraint firstItem="9gV-e4-ozD" firstAttribute="centerX" secondItem="S5C-pG-1Rf" secondAttribute="centerX" id="V16-Vg-pX6"/>
+                            <constraint firstItem="eMb-uc-TSE" firstAttribute="centerX" secondItem="S5C-pG-1Rf" secondAttribute="centerX" id="gmu-Iu-jEh"/>
+                            <constraint firstItem="GNf-YH-jGl" firstAttribute="top" secondItem="fYP-Ht-6kc" secondAttribute="bottom" constant="45" id="mAm-Xy-F0L"/>
+                            <constraint firstItem="eMb-uc-TSE" firstAttribute="centerY" secondItem="S5C-pG-1Rf" secondAttribute="centerY" id="o9w-5J-j8y"/>
+                            <constraint firstItem="GNf-YH-jGl" firstAttribute="centerX" secondItem="S5C-pG-1Rf" secondAttribute="centerX" id="ugc-Nu-Lah"/>
                         </constraints>
                     </view>
                 </viewController>

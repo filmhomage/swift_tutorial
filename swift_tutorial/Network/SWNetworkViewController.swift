@@ -17,7 +17,7 @@ class SWNetworkViewController : UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        self.loadTracks();
+        self.loadTracks()
     }
     
     @IBAction func searchButtonTapped(sender: AnyObject) {
@@ -75,12 +75,12 @@ class SWNetworkViewController : UIViewController {
         realm.beginWrite()
         
         for track in tracks! {
-            let trackModel = SWTrackModel();
+            let trackModel = SWTrackModel()
             trackModel.trackId = track.trackId
             trackModel.trackName = track.trackName
             trackModel.artistName = track.artistName
             realm.add(trackModel)
         }
-        try! realm.commitWrite();
+        try! realm.commitWrite()
     }
 }
