@@ -17,6 +17,7 @@
 		E90671A01CEBF970004D0AE2 /* SWUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E906719F1CEBF970004D0AE2 /* SWUtil.swift */; };
 		E90671A31CEBFC80004D0AE2 /* SWConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90671A21CEBFC80004D0AE2 /* SWConst.swift */; };
 		E90671A51CEC013A004D0AE2 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90671A41CEC013A004D0AE2 /* UIApplication+Extension.swift */; };
+		E92179521CF7FDD1004D413E /* SWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92179511CF7FDD1004D413E /* SWUITests.swift */; };
 		E92DDA701CF28DE4001429FC /* SWTrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92DDA6F1CF28DE4001429FC /* SWTrackModel.swift */; };
 		E98610141CF4284100D613F4 /* SWAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98610131CF4284100D613F4 /* SWAlert.swift */; };
 		E98610161CF429FD00D613F4 /* SWAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98610151CF429FD00D613F4 /* SWAlertViewController.swift */; };
@@ -26,6 +27,16 @@
 		E9E59B711CE0473900F00910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E59B701CE0473900F00910 /* Assets.xcassets */; };
 		E9E59B741CE0473900F00910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E59B721CE0473900F00910 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E921794B1CF7FD9D004D413E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9E59B5E1CE0473900F00910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E59B651CE0473900F00910;
+			remoteInfo = swift_tutorial;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2333C8C9B2C462A51C98E970 /* Pods-swift_tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_tutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift_tutorial/Pods-swift_tutorial.release.xcconfig"; sourceTree = "<group>"; };
@@ -40,6 +51,10 @@
 		E906719F1CEBF970004D0AE2 /* SWUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWUtil.swift; path = swift_tutorial/Util/SWUtil.swift; sourceTree = "<group>"; };
 		E90671A21CEBFC80004D0AE2 /* SWConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWConst.swift; path = Const/SWConst.swift; sourceTree = "<group>"; };
 		E90671A41CEC013A004D0AE2 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIApplication+Extension.swift"; path = "Extension/UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		E92179461CF7FD9D004D413E /* swift_tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_tutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E921794A1CF7FD9D004D413E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92179501CF7FDD1004D413E /* swift_tutorialUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift_tutorialUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		E92179511CF7FDD1004D413E /* SWUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWUITests.swift; path = swift_tutorialUITests/SWUITests.swift; sourceTree = SOURCE_ROOT; };
 		E92DDA6F1CF28DE4001429FC /* SWTrackModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWTrackModel.swift; path = Model/SWTrackModel.swift; sourceTree = "<group>"; };
 		E98610131CF4284100D613F4 /* SWAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWAlert.swift; path = swift_tutorial/Util/SWAlert.swift; sourceTree = "<group>"; };
 		E98610151CF429FD00D613F4 /* SWAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWAlertViewController.swift; path = UI/SWAlertViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +68,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E92179431CF7FD9D004D413E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9E59B631CE0473900F00910 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -155,6 +177,25 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		E92179411CF7FCFE004D413E /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E92179511CF7FDD1004D413E /* SWUITests.swift */,
+				E92179501CF7FDD1004D413E /* swift_tutorialUITests-Bridging-Header.h */,
+			);
+			name = UITests;
+			path = ../swift_tutorial;
+			sourceTree = "<group>";
+		};
+		E92179471CF7FD9D004D413E /* swift_tutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E92179411CF7FCFE004D413E /* UITests */,
+				E921794A1CF7FD9D004D413E /* Info.plist */,
+			);
+			path = swift_tutorialUITests;
+			sourceTree = "<group>";
+		};
 		E9461EFB1CEDB76D0087F037 /* DAO */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				E9E59B681CE0473900F00910 /* swift_tutorial */,
+				E92179471CF7FD9D004D413E /* swift_tutorialUITests */,
 				E9E59B671CE0473900F00910 /* Products */,
 				D114D29D2EE0F4AFC5F637E5 /* Frameworks */,
 				A39EC8C39E6467CDE0CC1EFD /* Pods */,
@@ -176,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				E9E59B661CE0473900F00910 /* swift_tutorial.app */,
+				E92179461CF7FD9D004D413E /* swift_tutorialUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,15 +227,15 @@
 			isa = PBXGroup;
 			children = (
 				E9E59B691CE0473900F00910 /* AppDelegate.swift */,
+				E9E59B6B1CE0473900F00910 /* ViewController.swift */,
 				E9461EFB1CEDB76D0087F037 /* DAO */,
 				E90671A61CEC02EA004D0AE2 /* Extension */,
 				E90671961CEBF2AE004D0AE2 /* Model */,
 				B99D12441CE212A800DDE512 /* Network */,
-				E91304E41CE04E8F00F78134 /* Resources */,
 				E90671A11CEBFC69004D0AE2 /* SWConst */,
 				E91304E31CE04E4700F78134 /* UI */,
 				E906719C1CEBF7A2004D0AE2 /* Util */,
-				E9E59B6B1CE0473900F00910 /* ViewController.swift */,
+				E91304E41CE04E8F00F78134 /* Resources */,
 				E91304E51CE04F1200F78134 /* Supporting Files */,
 			);
 			path = swift_tutorial;
@@ -201,6 +244,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E92179451CF7FD9D004D413E /* swift_tutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E921794D1CF7FD9D004D413E /* Build configuration list for PBXNativeTarget "swift_tutorialUITests" */;
+			buildPhases = (
+				E92179421CF7FD9D004D413E /* Sources */,
+				E92179431CF7FD9D004D413E /* Frameworks */,
+				E92179441CF7FD9D004D413E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E921794C1CF7FD9D004D413E /* PBXTargetDependency */,
+			);
+			name = swift_tutorialUITests;
+			productName = swift_tutorialUITests;
+			productReference = E92179461CF7FD9D004D413E /* swift_tutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		E9E59B651CE0473900F00910 /* swift_tutorial */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9E59B781CE0473900F00910 /* Build configuration list for PBXNativeTarget "swift_tutorial" */;
@@ -231,6 +292,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = kokaru.com;
 				TargetAttributes = {
+					E92179451CF7FD9D004D413E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E9E59B651CE0473900F00910;
+					};
 					E9E59B651CE0473900F00910 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -250,11 +315,19 @@
 			projectRoot = "";
 			targets = (
 				E9E59B651CE0473900F00910 /* swift_tutorial */,
+				E92179451CF7FD9D004D413E /* swift_tutorialUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E92179441CF7FD9D004D413E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9E59B641CE0473900F00910 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -316,6 +389,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E92179421CF7FD9D004D413E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92179521CF7FDD1004D413E /* SWUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9E59B621CE0473900F00910 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,6 +420,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E921794C1CF7FD9D004D413E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9E59B651CE0473900F00910 /* swift_tutorial */;
+			targetProxy = E921794B1CF7FD9D004D413E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		E9E59B6D1CE0473900F00910 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -359,6 +448,33 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E921794E1CF7FD9D004D413E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = swift_tutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kokaru.swift-tutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift_tutorial/swift_tutorialUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_TARGET_NAME = swift_tutorial;
+			};
+			name = Debug;
+		};
+		E921794F1CF7FD9D004D413E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = swift_tutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kokaru.swift-tutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift_tutorial/swift_tutorialUITests-Bridging-Header.h";
+				TEST_TARGET_NAME = swift_tutorial;
+			};
+			name = Release;
+		};
 		E9E59B761CE0473900F00910 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -471,6 +587,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E921794D1CF7FD9D004D413E /* Build configuration list for PBXNativeTarget "swift_tutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E921794E1CF7FD9D004D413E /* Debug */,
+				E921794F1CF7FD9D004D413E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E9E59B611CE0473900F00910 /* Build configuration list for PBXProject "swift_tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
