@@ -3,6 +3,5 @@ osx_image: xcode7.3
 xcode_workspace: swift_tutorial.xcworkspace
 xcode_scheme: swift_tutorial
 xcode_sdk: iphonesimulator
-
 after_success:
   - bash <(curl -s https://codecov.io/bash)
