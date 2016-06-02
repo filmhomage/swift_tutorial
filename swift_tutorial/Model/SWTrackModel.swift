@@ -8,7 +8,7 @@
 
 import Foundation
 
-class SWTrackModel : Object {
+class SWTrackModel : NSObject {
     
     dynamic var trackName = ""
     dynamic var trackId = ""
