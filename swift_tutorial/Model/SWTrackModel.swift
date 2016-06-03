@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import RealmSwift
 
-class SWTrackModel : NSObject {
+class SWTrackModel : Object {
     
     dynamic var trackName = ""
     dynamic var trackId = ""
