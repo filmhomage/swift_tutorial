@@ -8,4 +8,5 @@ target 'swift_tutorial' do
    pod 'RxCocoa'
    pod 'MBProgressHUD'
    pod 'XCGLogger'
+   pod 'SCLAlertView'
 end
