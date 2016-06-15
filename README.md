@@ -6,8 +6,11 @@
 ```
 
 - UI
+- Alert
+- Progress
 - Database
 - Network
+- Extension
 
 - UI Tests
 - Unit Tests
