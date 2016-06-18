@@ -2,7 +2,7 @@
 //  SWUIViewController.swift
 //  swift_tutorial
 //
-//  Created by earth on 5/11/16.
+//  Created by JonghyunKim on 5/11/16.
 //  Copyright © 2016 kokaru.com. All rights reserved.
 //
 

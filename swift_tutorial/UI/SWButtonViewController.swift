@@ -23,17 +23,18 @@ class SWButtonViewController : UIViewController {
         button.setTitle("Button", forState: UIControlState.Normal)
         button.frame = CGRectMake(100, 100, 200, 100)
         
-        button.addTarget(self, action: #selector(self.clickMe(_:)), forControlEvents: UIControlEvents.TouchUpInside)
+        button.addTarget(self, action: #selector(self.buttonTapped(_:)), forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(button)
     }
     
-    func clickMe(sender:UIButton?) {
-        print("Button Clicked")
+    func buttonTapped(sender:UIButton?) {
+        SWAlert.sharedInstance.showOkAlert("button tapped")
     }
     
     @IBAction func returnButtonTapped(sender: UIButton) {
         self.dismissViewControllerAnimated(true) { 
             print("Button dismiss")
+            
         }
     }
 }

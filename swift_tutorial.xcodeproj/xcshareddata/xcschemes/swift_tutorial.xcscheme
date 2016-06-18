@@ -70,7 +70,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6EB5910596C7DC4BC2E0AF794A7A421A"
+               BlueprintIdentifier = "A9F2A72B28D0D48EBD9330FE3A0EDF83"
                BuildableName = "Pods_swift_tutorial.framework"
                BlueprintName = "Pods-swift_tutorial"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -84,7 +84,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6D7436846590C675BE1202430305BFA8"
+               BlueprintIdentifier = "82F4004D2A0649E1B54AC5EBC35C69D6"
                BuildableName = "Realm.framework"
                BlueprintName = "Realm"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -98,7 +98,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EEF2AD5E5BFF26D17487C05848A433F6"
+               BlueprintIdentifier = "1B749297FFCA084142E151F090AD2F54"
                BuildableName = "RealmSwift.framework"
                BlueprintName = "RealmSwift"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -112,7 +112,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AA4A03DC3E2941F81620425540E1B9E0"
+               BlueprintIdentifier = "1AD7A8D602821D5A86799A1C9E547D22"
                BuildableName = "RxCocoa.framework"
                BlueprintName = "RxCocoa"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -126,7 +126,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FE61615CAD782802308881A24D03D6DA"
+               BlueprintIdentifier = "D82B70287CEAFD1E018DF1C3E8210C47"
                BuildableName = "RxSwift.framework"
                BlueprintName = "RxSwift"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -155,6 +155,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B904B06F1D14DA42000B869A"
+               BuildableName = "swift_tutorialTests.xctest"
+               BlueprintName = "swift_tutorialTests"
+               ReferencedContainer = "container:swift_tutorial.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
