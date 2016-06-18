@@ -340,11 +340,11 @@
                             <constraint firstItem="9I6-OV-uPq" firstAttribute="centerX" secondItem="KOE-ut-h6B" secondAttribute="centerX" id="Bbb-gz-roD"/>
                             <constraint firstItem="9I6-OV-uPq" firstAttribute="top" secondItem="KOE-ut-h6B" secondAttribute="bottom" constant="20" id="KGy-dI-lPb"/>
                             <constraint firstItem="KOE-ut-h6B" firstAttribute="top" secondItem="TgT-OO-d5Y" secondAttribute="bottom" constant="20" id="R8L-Xq-i8j"/>
-                            <constraint firstItem="TgT-OO-d5Y" firstAttribute="leading" secondItem="BnM-lU-Wl2" secondAttribute="leadingMargin" constant="203" id="UrN-jm-ONC"/>
                             <constraint firstItem="KOE-ut-h6B" firstAttribute="centerX" secondItem="BSt-UR-4K1" secondAttribute="centerX" id="bt0-j8-QS1"/>
-                            <constraint firstItem="BSt-UR-4K1" firstAttribute="leading" secondItem="BnM-lU-Wl2" secondAttribute="leadingMargin" constant="236" id="c1V-RP-zHj"/>
                             <constraint firstItem="9I6-OV-uPq" firstAttribute="centerX" secondItem="D1q-T4-5Rb" secondAttribute="centerX" id="gIm-bB-C1D"/>
                             <constraint firstItem="BSt-UR-4K1" firstAttribute="top" secondItem="3Xv-Hz-TAL" secondAttribute="bottom" constant="65" id="gay-HB-rTc"/>
+                            <constraint firstItem="TgT-OO-d5Y" firstAttribute="centerX" secondItem="BnM-lU-Wl2" secondAttribute="centerX" id="k9T-Qq-zFc"/>
+                            <constraint firstItem="BSt-UR-4K1" firstAttribute="centerX" secondItem="BnM-lU-Wl2" secondAttribute="centerX" id="rwf-Fh-ugA"/>
                         </constraints>
                     </view>
                 </viewController>
