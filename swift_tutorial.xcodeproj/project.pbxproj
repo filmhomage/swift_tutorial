@@ -20,6 +20,7 @@
 		E90671A01CEBF970004D0AE2 /* SWUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E906719F1CEBF970004D0AE2 /* SWUtil.swift */; };
 		E90671A31CEBFC80004D0AE2 /* SWConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90671A21CEBFC80004D0AE2 /* SWConst.swift */; };
 		E90671A51CEC013A004D0AE2 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90671A41CEC013A004D0AE2 /* UIApplication+Extension.swift */; };
+		E90BA14A1D18FCA800522020 /* SWMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90BA1491D18FCA800522020 /* SWMessageViewController.swift */; };
 		E92179521CF7FDD1004D413E /* SWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92179511CF7FDD1004D413E /* SWUITests.swift */; };
 		E92DDA701CF28DE4001429FC /* SWTrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92DDA6F1CF28DE4001429FC /* SWTrackModel.swift */; };
 		E98610141CF4284100D613F4 /* SWAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98610131CF4284100D613F4 /* SWAlert.swift */; };
@@ -65,6 +66,7 @@
 		E906719F1CEBF970004D0AE2 /* SWUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWUtil.swift; path = swift_tutorial/Util/SWUtil.swift; sourceTree = "<group>"; };
 		E90671A21CEBFC80004D0AE2 /* SWConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWConst.swift; path = Const/SWConst.swift; sourceTree = "<group>"; };
 		E90671A41CEC013A004D0AE2 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIApplication+Extension.swift"; path = "Extension/UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		E90BA1491D18FCA800522020 /* SWMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWMessageViewController.swift; path = UI/SWMessageViewController.swift; sourceTree = "<group>"; };
 		E92179461CF7FD9D004D413E /* swift_tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_tutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E921794A1CF7FD9D004D413E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E92179501CF7FDD1004D413E /* swift_tutorialUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift_tutorialUITests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 				E98610151CF429FD00D613F4 /* SWAlertViewController.swift */,
 				B904B07C1D14DCB4000B869A /* SWSCLAlertViewController.swift */,
 				B9DA1F4B1CE22F36009B489A /* SWButtonViewController.swift */,
+				E90BA1491D18FCA800522020 /* SWMessageViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 				E90671A31CEBFC80004D0AE2 /* SWConst.swift in Sources */,
 				E98610141CF4284100D613F4 /* SWAlert.swift in Sources */,
 				B9DA1F4E1CE23479009B489A /* SWUIViewController.swift in Sources */,
+				E90BA14A1D18FCA800522020 /* SWMessageViewController.swift in Sources */,
 				E98610161CF429FD00D613F4 /* SWAlertViewController.swift in Sources */,
 				E906719A1CEBF54C004D0AE2 /* SWNetworkViewController.swift in Sources */,
 				E90671A51CEC013A004D0AE2 /* UIApplication+Extension.swift in Sources */,
