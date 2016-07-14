@@ -1,0 +1,16 @@
+machine:
+  xcode:
+    version: 7.3
+
+  environment:
+    XCODE_SCHEME: swift_tutorial
+    XCODE_PROJECT: ./swift_tutorial.xcodeproj
+
+test:
+  override:
+    - xcodebuild -workspace swift_tutorial.xcworkspace  -scheme swift_tutorial -sdk iphonesimulator
+    
+dependencies:
+  override:
+    - pod install:
+        timeout: 300    
