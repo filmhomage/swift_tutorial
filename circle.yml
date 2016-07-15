@@ -13,4 +13,4 @@ test:
 dependencies:
   override:
     - pod install:
-        timeout: 300    
+        timeout: 300
